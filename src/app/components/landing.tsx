@@ -32,11 +32,11 @@ export default function Landing() {
                         </div>
                         <div className="navbar-end flex gap-4">
                             <button className="btn  border-1 border-white rounded-full">Log in</button>
-                            <button className="btn border-none  bg-[#195399] rounded-full">Sign Up</button>
+                            <button className="btn border-none  bg-[#195399] hover:bg-[#2973aa] rounded-full">Sign Up</button>
                         </div>
                     </div>
                     <div className="flex flex-col items-center lg:mt-16 mt-8 text-center" >
-                        <button className="btn btn-sm bg-white rounded-full text-black">Crypto Exchange</button>
+                        <button className="btn btn-sm bg-white rounded-full border-none hover:bg-white hover:text-black text-black">Crypto Exchange</button>
                         <h1 className="leading-relaxed mt-16 w-1/2 text-4xl">Explore the world of cryptocurrency with HelloMe Money&apos;s crypto exchange.</h1>
                         <h1 className="leading-relaxed w-2/3 text-4xl mt-0">Buy, sell, and trade various cryptocurrencies securely, all within the <span className="text-5xl font-semibold">HelloMe Money</span> platform.</h1>
                         <button className="btn btn-lg hover:bg-white hover:text-black bg-white rounded-3xl border-none mt-16 text-black">Get Started <img src="/images/Gold.png" /></button>
@@ -45,7 +45,7 @@ export default function Landing() {
                 <div className="lg:container mt-16 px-6">
                     <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 items-center">
                         <div>
-                            <div className="flex gap-2">
+                            <div className="flex gap-2 items-center">
                                 <h1 className="text-4xl font-bold">Secure Transactions:</h1>
                                 <img alt="logo" src="/images/safe.png" width={50} height={50}></img>
                             </div>
@@ -58,9 +58,9 @@ export default function Landing() {
                     <div className="flex lg:flex-row flex-col-reverse gap-6 items-center mt-24">
                         <img alt="logo" src="/images/transaction.webp" className="lg:w-1/2 w-full"></img>
                         <div className="lg:ml-16">
-                            <div className="flex gap-4">
+                            <div className="flex gap-4 items-center">
                                 <h1 className="text-4xl font-bold">Convenient Trading:</h1>
-                                <img alt="logo" src="/images/arrow.png" width={50} height={50}></img>
+                                <img alt="logo" src="/images/arrow.png" width={41} height={41}></img>
                             </div>
                             <p className="leading-relaxed text-2xl font-thin ml-8 mr-8 mt-6">
                                 Trade cryptocurrencies seamlessly within the HelloMe Money platform. Our user-friendly interface and intuitive tools make buying, selling, and trading digital assets a hassle-free experience.
@@ -92,7 +92,7 @@ export default function Landing() {
                                 CHILLIWACK, BC, CANADA V2R4H1</h1>
                         </div>
                     </div>
-                    <p className="flex justify-center mb-4">Copyright © 2024 HelloMe Money. All Rights Reserved.</p>
+                    <p className="flex justify-center text-center mb-4">Copyright © 2024 HelloMe Money. All Rights Reserved.</p>
                 </footer>
 
             </div>
