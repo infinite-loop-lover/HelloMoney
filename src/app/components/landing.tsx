@@ -1,5 +1,4 @@
-"use client"
-
+import Image from "next/image"
 import { Clash } from "../fonts"
 
 export default function Landing() {
@@ -21,7 +20,7 @@ export default function Landing() {
                                 </ul>
                             </div>
                             <a href="#" className="text-xl cursor-pointer hidden lg:flex">
-                                <img alt="logo" src="/images/logo.webp" className="w-52"></img>
+                                <Image alt="logo" src="/images/logo.webp" width={220} height={50} />
                             </a>
                         </div>
                         <div className="navbar-center hidden lg:flex">
