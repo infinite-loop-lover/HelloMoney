@@ -38,7 +38,7 @@ export default function Landing() {
                     </div>
                     <div className="flex flex-col items-center lg:mt-16 mt-8 text-center" >
                         <button className="btn btn-sm bg-white rounded-full text-black">Crypto Exchange</button>
-                        <h1 className="leading-relaxed mt-16 w-1/2 text-4xl">Explore the world of cryptocurrency with HelloMe Money's crypto exchange.</h1>
+                        <h1 className="leading-relaxed mt-16 w-1/2 text-4xl">Explore the world of cryptocurrency with HelloMe Money&apos;s crypto exchange.</h1>
                         <h1 className="leading-relaxed w-2/3 text-4xl mt-0">Buy, sell, and trade various cryptocurrencies securely, all within the <span className="text-5xl font-semibold">HelloMe Money</span> platform.</h1>
                         <button className="btn btn-lg hover:bg-white hover:text-black bg-white rounded-3xl border-none mt-16 text-black">Get Started <img src="/images/Gold.png" /></button>
                     </div>
@@ -51,7 +51,7 @@ export default function Landing() {
                                 <img alt="logo" src="/images/safe.png" width={50} height={50}></img>
                             </div>
                             <p className="leading-relaxed text-2xl font-thin ml-8 mr-16 mt-6">
-                                Explore the world of cryptocurrency with confidence on HelloMe Money's secure platform. Buy, sell, and trade various cryptocurrencies knowing that your transactions are protected by advanced security measures.
+                                Explore the world of cryptocurrency with confidence on HelloMe Money&apos;s secure platform. Buy, sell, and trade various cryptocurrencies knowing that your transactions are protected by advanced security measures.
                             </p>
                         </div>
                         <img alt="logo" src="/images/trading.webp" className="w-full"></img>
