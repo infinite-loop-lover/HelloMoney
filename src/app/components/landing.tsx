@@ -20,7 +20,7 @@ export default function Landing() {
                                 </ul>
                             </div>
                             <a href="#" className="text-xl cursor-pointer hidden lg:flex">
-                                <Image alt="logo" src="/images/logo.webp" width={220} height={50} />
+                                <Image alt="logo" src="/images/logo.png" width={220} height={50} />
                             </a>
                         </div>
                         <div className="navbar-center hidden lg:flex">
